@@ -5,7 +5,7 @@ const sponsors = [
   { 
     name: 'Twin Blades Rage N Axe', 
     amount: 150, 
-    logo: '/Twin-Blades.webp',  // Using the logo from public folder
+    logo: '/twinblades.png',  // Using the logo from public folder
     url: 'https://twinbladesaxethrowing.com/',
     donationType: 'In-kind donation'
   },
