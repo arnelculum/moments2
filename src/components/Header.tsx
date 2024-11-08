@@ -14,8 +14,6 @@ export function Header() {
         
         {/* You can keep or remove the heart icon */}
         {/* <Heart className="w-8 h-8 text-rose-500" /> */}
-        
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800">Moments Program</h1>
       </div>
     </header>
   );
