@@ -21,17 +21,22 @@ function App() {
 
       <ImageCarousel />
 
-      {/* Donation Section */}
-      <section className="container mx-auto px-4 py-12 text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Support the Twin Falls Community</h2>
-        <button className="bg-rose-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-rose-600 transform transition hover:-translate-y-1">
-          Donate Now
-        </button>
-      </section>
+     {/* Donation Section */}
+<section className="container mx-auto px-4 py-12 text-center">
+  <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Support the Twin Falls Community</h2>
+  <a 
+    href="/moments.pdf" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="inline-block bg-rose-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-rose-600 transform transition hover:-translate-y-1 duration-300"
+  >
+    Donate Now
+  </a>
+</section>
 
-      <SponsorLeaderboard />
-    </div>
-  );
+<SponsorLeaderboard />
+</div>
+);
 }
 
 export default App;
