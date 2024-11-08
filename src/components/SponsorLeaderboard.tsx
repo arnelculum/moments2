@@ -4,7 +4,7 @@ import { Trophy } from 'lucide-react';
 const sponsors = [
   { 
     name: 'Twin Blades Rage N Axe', 
-    amount: 150, 
+    amount: 200, 
     logo: '/twinblades.png',  // Using the logo from public folder
     url: 'https://twinbladesaxethrowing.com/',
     donationType: 'In-kind donation'
