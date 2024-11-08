@@ -14,7 +14,7 @@ function App() {
       <section className="container mx-auto px-4 py-12">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            The Moments Program empowers our community by funding memorable experiences. Each month, participants receive $100 to create a special moment, from a delightful dinner to a fun outing. They share these moments with the group, enriching our community's narrative.
+            The Moments Program fuels the Twin Falls community by funding $100 experiences that support local businesses and create cherished memories. Every dollar donated circulates back into the community, strengthening local connections and showcasing your business as a vital supporter. Your contribution helps foster shared stories that enrich our community’s spirit, with all funds managed through a trusted local nonprofit for transparency. Join us in building moments that matter.
           </p>
         </div>
       </section>
