@@ -5,7 +5,7 @@ const images = [
   'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&q=80&w=800',
   'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800',
   'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1521336993297-77c011d4b4c7?auto=format&fit=crop&q=80&w=800'
+  'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&q=80&w=800'
 ];
 
 export function ImageCarousel() {
