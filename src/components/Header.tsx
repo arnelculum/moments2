@@ -9,7 +9,7 @@ export function Header() {
         <img 
           src="/logo.png"
           alt="Moments Program Logo" 
-          className="w-16 h-auto object-contain"  // This maintains aspect ratio
+          className="w-80 h-auto object-contain"  // This maintains aspect ratio
         />
         
         {/* You can keep or remove the heart icon */}
