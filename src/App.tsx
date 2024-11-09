@@ -10,14 +10,31 @@ function App() {
       <Header />
       <VideoSection />
       
-      {/* Program Description */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            The Moments Program fuels the Twin Falls community by funding $100 experiences that support local businesses and create cherished memories. Every dollar donated circulates back into the community, strengthening local connections and showcasing your business as a vital supporter. Your contribution helps foster shared stories that enrich our community’s spirit, with all funds managed through a trusted local nonprofit for transparency. Join us in building moments that matter.
-          </p>
-        </div>
-      </section>
+     {/* Program Description */}
+<section className="container mx-auto px-4 py-12">
+  <div className="max-w-2xl mx-auto text-center">
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+      Create Lasting Memories with the Moments Program
+    </h2>
+    <h3 className="text-xl md:text-2xl text-gray-700 mb-6">
+      Empowering Twin Falls Through Shared Experiences
+    </h3>
+    <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
+      Join us in strengthening the Twin Falls community by funding $100 experiences that support local businesses and create cherished memories. Here’s how your contribution makes an impact:
+    </p>
+    <ul className="list-disc list-inside text-left text-lg md:text-xl text-gray-700 mb-6">
+      <li><strong>Boosts the Local Economy:</strong> Every dollar donated is spent at local businesses, keeping funds circulating within the community.</li>
+      <li><strong>Builds Community Bonds:</strong> Your contribution helps create experiences that foster meaningful connections and shared stories.</li>
+      <li><strong>Strengthens Your Presence:</strong> Showcase your business as a committed supporter of the community’s growth and spirit.</li>
+    </ul>
+    <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+      <strong>Trusted and Transparent Management:</strong> All donations are handled through a trusted local nonprofit, ensuring accountability and transparency. See your support translate into real moments that matter to the people of Twin Falls.
+    </p>
+    <p className="text-lg md:text-xl text-gray-700 leading-relaxed mt-6 font-semibold">
+      Join us in creating moments that make a difference. Your support is the heartbeat of a stronger, more connected community.
+    </p>
+  </div>
+</section>
 
       <ImageCarousel />
 
